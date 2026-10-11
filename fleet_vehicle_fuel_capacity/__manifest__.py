@@ -3,10 +3,11 @@
 
 {
     "name": "Fleet Vehicle Fuel Capacity",
-    "summary": """
-        This module extends the functionality of fleet management. It allows the
-        registration of a vehicle's fuel capacity.""",
-    "version": "19.0.1.0.0",
+    "summary": (
+        "This module extends the functionality of fleet management. It allows "
+        "the registration of a vehicle's fuel capacity."
+    ),
+    "version": "20.0.1.0.0",
     "license": "AGPL-3",
     "category": "Human Resources/Fleet",
     "author": "Escodoo, Odoo Community Association (OCA)",
