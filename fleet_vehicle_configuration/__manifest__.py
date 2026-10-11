@@ -3,7 +3,7 @@
 
 {
     "name": "Fleet Vehicle Configuration",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "depends": ["fleet"],
     "author": "Camptocamp, Odoo Community Association (OCA)",
     "summary": "add vehicle configuration capacity",
@@ -11,9 +11,9 @@
     "license": "AGPL-3",
     "category": "Fleet",
     "data": [
-        "security/ir.model.access.csv",
         "views/fleet_vehicle.xml",
         "views/fleet_vehicle_configuration.xml",
+        "security/ir.access.csv",
     ],
     "installable": True,
 }
