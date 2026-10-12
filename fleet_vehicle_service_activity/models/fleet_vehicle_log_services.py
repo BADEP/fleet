@@ -12,9 +12,7 @@ class FleetVehicleLogServices(models.Model):
     @api.model
     def _cron_manage_service_date(self):
         params = self.env["ir.config_parameter"].sudo()
-        delay_alert_service = int(
-            params.get_param("hr_fleet.delay_alert_service", default=30)
-        )
+        delay_alert_service = params.get_int("hr_fleet.delay_alert_service", default=30)
         date_today = fields.Date.context_today(self)
         outdated_days = date_today + relativedelta(days=delay_alert_service)
         reminder_activity_type = (
