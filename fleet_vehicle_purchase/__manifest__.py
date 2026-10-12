@@ -3,9 +3,8 @@
 
 {
     "name": "Fleet Vehicle Purchase",
-    "summary": """
-        Allow to integrate Purcase with Fleet Vehicles""",
-    "version": "19.0.1.0.0",
+    "summary": "Allow to integrate Purcase with Fleet Vehicles",
+    "version": "20.0.1.0.0",
     "license": "AGPL-3",
     "author": "Dixmit, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/fleet",
